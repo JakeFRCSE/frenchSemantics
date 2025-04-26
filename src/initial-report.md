@@ -5,27 +5,10 @@
 #### 1-1. 대한민국의 정치적 양극화 심화
 
 
-<div style="display: flex; justify-content: center;">
-  <figure>
-    <img src="https://www.eai.or.kr/Upload/UserFile_20250401125745395414470.JPG" 
-         alt="EAI 동아시아연구원에서 실시한 2025년 양극화 인식 조사. 더불어민주당에 대한 국민의힘 지지자 호감도는 58.8%가 매우 싫다로 답변하였다." >
-    <figcaption>출처 : 
-      <a href="https://www.eai.or.kr/new/ko/pub/view.asp?intSeq=22687&board=kor_issuebriefing&keyword_option=kor_workingpaper&keyword=kor_special&more=kor_multimedia">
-        EAI 동아시아연구원
-      </a>
-    </figcaption>
-  </figure>
+|<img src="https://www.eai.or.kr/Upload/UserFile_20250401125745395414470.JPG"       alt="EAI 동아시아연구원에서 실시한 2025년 양극화 인식 조사. 더불어민주당에 대한 국민의힘 지지자 호감도는 58.8%가 매우 싫다로 답변하였다." >|<img src="https://www.eai.or.kr/Upload/UserFile_20250401125753395414470.JPG"         alt="EAI 동아시아연구원에서 실시한 2025년 양극화 인식 조사. 국민의힘에 대한 민주당 지지자 호감도는 69%가 매우 싫다로 답변하였다." >|
+|:--:|:--:|
+|<figcaption>출처 : <a href="https://www.eai.or.kr/new/ko/pub/view.asp?intSeq=22687&board=kor_issuebriefing&keyword_option=kor_workingpaper&keyword=kor_special&more=kor_multimedia"> EAI 동아시아연구원 </a></figcaption>|<figcaption>출처 : <a href="https://www.eai.or.kr/new/ko/pub/view.asp?intSeq=22687&board=kor_issuebriefing&keyword_option=kor_workingpaper&keyword=kor_special&more=kor_multimedia">EAI 동아시아연구원</a></figcaption>|
 
-  <figure>
-    <img src="https://www.eai.or.kr/Upload/UserFile_20250401125753395414470.JPG" 
-         alt="EAI 동아시아연구원에서 실시한 2025년 양극화 인식 조사. 국민의힘에 대한 민주당 지지자 호감도는 69%가 매우 싫다로 답변하였다." >
-    <figcaption>출처 : 
-      <a href="https://www.eai.or.kr/new/ko/pub/view.asp?intSeq=22687&board=kor_issuebriefing&keyword_option=kor_workingpaper&keyword=kor_special&more=kor_multimedia">
-        EAI 동아시아연구원
-      </a>
-    </figcaption>
-  </figure>
-</div>
 
 
 #### 최근 대통령의 계엄령 선포와 대통령 탄핵으로 인해 대한민국의 정치적 양극화가 심화되었습니다. 정치적 양극화는 EAI 동아시아연구원에서 실시한 2025년 양극화 인식 조사에서 잘 드러납니다. 해당 자료는 특정 정당을 지지하는 유권자의 타 정당에 대한 인식을 드러내고 있습니다. 자료를 통해 90% 이상의 응답자들이 타 정당에 대해 부정적 인식을 가지고 있음을 알 수 있고, 이를 통해 정치적 양극화가 심화되었음을 알 수 있습니다.
