@@ -1,4 +1,4 @@
-# 한국과 프랑스의 국가 구성원 정의 비교
+# "국가"의 의미 분석을 통한 한국과 프랑스의 국가 구성원 정의 비교
 
 ### 1. 주제 선정 동기
 
@@ -8,8 +8,7 @@
 <div style="display: flex; justify-content: center;">
   <figure>
     <img src="https://www.eai.or.kr/Upload/UserFile_20250401125745395414470.JPG" 
-         alt="EAI 동아시아연구원에서 실시한 2025년 양극화 인식 조사. 더불어민주당에 대한 국민의힘 지지자 호감도는 58.8%가 매우 싫다로 답변하였다." 
-         width="290" height="300">
+         alt="EAI 동아시아연구원에서 실시한 2025년 양극화 인식 조사. 더불어민주당에 대한 국민의힘 지지자 호감도는 58.8%가 매우 싫다로 답변하였다." >
     <figcaption>출처 : 
       <a href="https://www.eai.or.kr/new/ko/pub/view.asp?intSeq=22687&board=kor_issuebriefing&keyword_option=kor_workingpaper&keyword=kor_special&more=kor_multimedia">
         EAI 동아시아연구원
@@ -19,8 +18,7 @@
 
   <figure>
     <img src="https://www.eai.or.kr/Upload/UserFile_20250401125753395414470.JPG" 
-         alt="EAI 동아시아연구원에서 실시한 2025년 양극화 인식 조사. 국민의힘에 대한 민주당 지지자 호감도는 69%가 매우 싫다로 답변하였다." 
-         width="290" height="300">
+         alt="EAI 동아시아연구원에서 실시한 2025년 양극화 인식 조사. 국민의힘에 대한 민주당 지지자 호감도는 69%가 매우 싫다로 답변하였다." >
     <figcaption>출처 : 
       <a href="https://www.eai.or.kr/new/ko/pub/view.asp?intSeq=22687&board=kor_issuebriefing&keyword_option=kor_workingpaper&keyword=kor_special&more=kor_multimedia">
         EAI 동아시아연구원
@@ -70,7 +68,7 @@
 
 |주차|연구 계획|달성 여부|비고| 
 |:--:|:--:|:--:|:--:|
-|1주차|사전적 정의 분석| - [ ]||
-|2주차|역사적 맥락 분석 - 한국어| - [ ]||
-|3주차|역사적 맥락 분석 - 프랑스어| - [ ]||
-|4주차|기타 추가 분석| - [ ]||
+|1주차|사전적 정의 분석| [ ] ||
+|2주차|역사적 맥락 분석 - 한국어| [ ] ||
+|3주차|역사적 맥락 분석 - 프랑스어| [ ] ||
+|4주차|기타 추가 분석| [ ] ||
