@@ -10,15 +10,16 @@ import pandas as pd
 
 def main(): 
     st.title("French Semantics")
-    st.write("This is a web app for French semantics.\n Enter a Korean word and click Submit Korean to get a word cloud.")
-    top_n = st.slider("Number of words", 1, 100, 30)
-    korean_word = st.text_input("Enter a Korean word")
+    st.write("This is a web app for French semantics.")
+    st.write("Enter a Korean word (e.g. 국민) and click Submit Korean to get a word cloud and dataframe.")
+    korean_word = st.text_input("Enter a Korean word.")
+    top_n = st.slider("Set the number of words to display if you want.", 1, 100, 30)
     if st.button("Submit Korean"):
         if korean_word:
             with st.spinner("Processing..."):
                 extracted_words = near_words(korean_word, top_n=top_n)
             if extracted_words:
-                df = pd.DataFrame(extracted_words, columns=['단어', '중요도'])
+                df = pd.DataFrame(extracted_words, columns=['단어(Word)', '중요도(Score)'])
                 extracted_words = {word[0]:word[1]*10 for word in extracted_words}
                 font_path = os.path.join(os.path.dirname(__file__), '..', 'src', 'NanumFontSetup_TTF_GOTHIC', 'NanumGothic.ttf')
                 font_path = os.path.abspath(font_path)
