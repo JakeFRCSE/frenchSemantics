@@ -2,7 +2,7 @@ import requests
 import json
 from sklearn.feature_extraction.text import TfidfVectorizer
 import re
-from konlpy.tag import Kkma
+from kiwipiepy import Kiwi
 import numpy
 import os
 from dotenv import load_dotenv
@@ -40,7 +40,7 @@ def get_top_tfidf_words(tfidf_dict, top_n=15):
 
 def near_words(korean_input, top_n=15, display=100, start=1, sort="date"):
     results = news_corpus(korean_input, display, start, sort)
-    kkma = Kkma()
+    kiwi = Kiwi()
 
     if results:
         corpus = []
@@ -48,9 +48,17 @@ def near_words(korean_input, top_n=15, display=100, start=1, sort="date"):
             result['description'] = re.sub(r'<b>', '', result['description'])
             result['description'] = re.sub(r'</b>', '', result['description'])
             corpus.append(result['description'])
-        
-        tokens = [" ".join(kkma.nouns(line)) for line in corpus]
 
+        tokens = []
+        temp_tokens = ""
+        for line in corpus:
+            result = kiwi.tokenize(line)
+            for token in result:
+                if (token.tag).startswith("N"):
+                    temp_tokens += token.form + " "
+            tokens.append(temp_tokens)
+            temp_tokens = ""
+    
         vectorizer = TfidfVectorizer(dtype=numpy.float32)
         X = vectorizer.fit_transform(tokens)
         feature_names = vectorizer.get_feature_names_out()
@@ -59,8 +67,7 @@ def near_words(korean_input, top_n=15, display=100, start=1, sort="date"):
 
         top_words = get_top_tfidf_words(tfidf_dict, top_n)
         return top_words
-
     else:
         return None
-        
+
         
