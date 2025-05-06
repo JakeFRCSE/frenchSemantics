@@ -14,10 +14,12 @@ GitPython==3.1.44
 idna==3.10
 Jinja2==3.1.6
 joblib==1.5.0
+jpype1==1.5.2
 jsonschema==4.23.0
 jsonschema-specifications==2025.4.1
 kiwisolver==1.4.8
 konlpy==0.6.0
+lxml==5.4.0
 MarkupSafe==3.0.2
 matplotlib==3.10.1
 narwhals==1.38.0
@@ -25,6 +27,7 @@ numpy==2.2.5
 packaging==24.2
 pandas==2.2.3
 pillow==11.2.1
+pip==25.1
 protobuf==6.30.2
 pyarrow==20.0.0
 pydeck==0.9.1
@@ -38,6 +41,7 @@ requests==2.32.3
 rpds-py==0.24.0
 scikit-learn==1.6.1
 scipy==1.15.2
+setuptools==78.1.1
 six==1.17.0
 smmap==5.0.2
 streamlit==1.45.0
@@ -48,4 +52,5 @@ tornado==6.4.2
 typing_extensions==4.13.2
 tzdata==2025.2
 urllib3==2.4.0
+wheel==0.45.1
 wordcloud==1.9.4
