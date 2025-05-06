@@ -14,12 +14,10 @@ GitPython==3.1.44
 idna==3.10
 Jinja2==3.1.6
 joblib==1.5.0
-jpype1 @ file:///Users/runner/miniforge3/conda-bld/jpype1_1738063593976/work
 jsonschema==4.23.0
 jsonschema-specifications==2025.4.1
 kiwisolver==1.4.8
 konlpy==0.6.0
-lxml @ file:///Users/runner/miniforge3/conda-bld/lxml_1745413954104/work
 MarkupSafe==3.0.2
 matplotlib==3.10.1
 narwhals==1.38.0
