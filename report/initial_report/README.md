@@ -1,7 +1,7 @@
 [[Kor]](#국가의-의미-분석을-통한-한국과-프랑스의-국가-구성원-정의-비교) [[Eng]](#comparative-analysis-of-the-meaning-of-nation-defining-national-constituents-in-south-korea-and-france)
 
 
-# "국가"의 의미 분석을 통한 한국과 프랑스의 국가 구성원 정의 비교
+# "국민"의 의미 분석을 통한 한국과 프랑스의 국가 구성원 정의 비교
 
 ### 1. 주제 선정 동기
 
@@ -27,37 +27,35 @@
 
 #### 1-3. 국가 구성원으로서의 "국민"의 정의 분석 필요성
 
-#### 앞서 살펴본 정치적 양극화 속 "국민" 용례를 통해, 저는 "국민"이라는 단어가 본래 의미하는 국가 구성원 전체를 충분히 포괄하지 못하게 될 위험성을 느꼈습니다. 이는 단순한 언어 사용의 변화가 아니라, 사회가 공동체를 어떻게 정의하고 있는지를 보여주는 중요한 단서라고 생각합니다. 따라서 이러한 문제의식을 바탕으로, 국가 구성원을 지칭하는 핵심 단어들이 각 사회에서 어떻게 이해되고 정의되어 왔는지를 살펴보고자 하였습니다. 특히 한국어의 "국민"과 프랑스어의 "Peuple", "Nation", "Citoyen"을 비교함으로써, 양국이 사회 공동체를 어떤 관점에서 인식하고 있는지 그 차이를 분석해 보고자 합니다. 이러한 분석은 국가가 사회 구성원을 어떻게 정의해 왔는지를 파악하는 데 기여할 뿐 아니라, 특정 집단이 배제되거나 사회적 분열이 심화되는 조짐을 감지할 수 있는 하나의 기준으로 기능할 수 있다는 점에서 그 필요성이 있다고 생각합니다.
+#### 앞서 살펴본 정치적 양극화 속 "국민" 용례를 통해, 저는 "국민"이라는 단어가 본래 의미하는 국가 구성원 전체를 충분히 포괄하지 못하게 될 위험성을 느꼈습니다. 따라서 이러한 문제의식을 바탕으로, 해당 단어의 사용 양상을 통계적으로 분석하여 "국민"이라는 단어가 사용 주체에 따라 얼마나 다른 의미로 사용되고 있는지를 확인하고자 합니다.
 
 
 ### 2. 주제 탐구 방법
 
-#### 본 프로젝트에서는 "국민"이라는 단어를 중심으로 한국과 프랑스가 국가 구성원을 어떻게 정의하고 있는지 비교하고자 합니다. 이를 위해 다음과 같은 방법을 사용할 예정입니다.
+#### 본 프로젝트에서는 "국민"이라는 단어를 분석하기 위해 다음과 같은 방법을 사용할 예정입니다.
 
-1. **사전적 정의 분석** : 한국어 "국민"과 프랑스어 "Peuple", "Nation", "Citoyen"의 사전적 정의를 분석합니다. 
+1. **사전적 정의 분석** : 한국어 "국민"의 사전적 정의를 분석합니다. 
    
-2. **역사적 맥락 분석** : 각 단어가 역사적 맥락 속에서 어떻게 의미를 변화시켜 왔는지를 살펴볼 예정입니다. 특히 프랑스 혁명과 대한민국 건국 과정에서 이 단어들이 어떤 역할을 했는지 분석하고자 합니다.
+2. **통계적 분석** : 뉴스 미디어에서 사용되는 분석 대상 단어들의 의미를 통계적으로 분석할 예정입니다. `Python`을 사용하여 뉴스 미디어의 내용을 크롤링하여 데이터베이스에 저장할 예정입니다. 이후 해당 단어들이 들어있는 문장/문단/문서를 분석하여 `Streamlit`으로 시각화 하는 방식으로 접근해볼 예정입니다.
 
-3. **참고 자료** : 한국어는 표준국어대사전, 고려대한국어사전, 우리말 샘, 프랑스어는 Larousse, Le Robert 사전을 참고할 예정입니다. 
+3. **참고 자료** : 사전적 정의는 표준국어대사전, 고려대한국어사전, 우리말 샘을 참고할 예정입니다. 통계적 분석은 대통령 탄핵 전후 시점을 중심으로 보수성향 언론사인 조선일보와 진보성향 언론사인 경향신문에서 데이터를 확보할 예정입니다. 단, 원활한 데이터 수집을 위해 언론사가 바뀔 수 있습니다. 
 
-4. **(+ 통계적 분석)** : 여유가 된다면 뉴스 미디어에서 사용되는 분석 대상 단어들의 의미를 통계적으로 분석할 예정입니다. `Python`을 사용하여 뉴스 미디어의 내용을 크롤링 한 후 해당 단어들이 들어있는 문장/문단을 분석하여 `Streamlit`으로 시각화 하는 방식으로 접근해볼 예정입니다.
-
-#### 이러한 과정을 통해 단어가 지닌 의미의 차이뿐만 아니라, 사회가 국가 공동체를 바라보는 방식의 차이까지 분석할 예정입니다.
+#### 이러한 과정을 통해 정치성향에 따라 달라지는 단어 의미의 차이를 분석해볼 예정입니다.
 
 
 ### 3. 문제 및 한계
 
-#### 본 프로젝트는 현대 정치 담론에서의 용례까지 깊이 분석할 경우 논란의 소지가 있을 뿐만 아니라 분석 범위가 지나치게 방대해질 위험이 있다고 판단하였습니다. 따라서 이번 연구는 주로 역사적 흐름과 제도적 정의를 중심으로 단어의 의미를 분석하는 데 집중하고자 합니다. 이를 통해 보다 객관적이고 일관된 기준으로 국가 구성원에 대한 인식 차이를 비교하려 합니다.
+#### 본 프로젝트는 정치적 중립을 유지한 상태로 진행되어야 합니다. 이를 위해 각 정치성향별 데이터의 수를 동일하게 유지할 예정입니다. 아직 통계적 분석을 위한 방법론을 확정하지 않은 상태입니다. 분석을 위한 방법론 확정이 필요합니다.
 
 
 ### 4. 향후 계획 및 일정
 
 |주차|연구 계획|달성 여부|비고| 
 |:--:|:--:|:--:|:--:|
-|1주차|사전적 정의 분석| [ ] ||
-|2주차|역사적 맥락 분석 - 한국어| [ ] ||
-|3주차|역사적 맥락 분석 - 프랑스어| [ ] ||
-|4주차|기타 추가 분석| [ ] ||
+|1주차|사전적 정의 분석 + 데이터 수집| [ ] ||
+|2주차|데이터 전처리 + 통계적 분석| [ ] ||
+|3주차|통계적 분석| [ ] ||
+|4주차|통계적 분석 결과 시각화| [ ] ||
 
 # Comparative Analysis of the Meaning of "Nation": Definition of National Constituents in South Korea and France
 
@@ -81,31 +79,29 @@ In this context, encountering sentences like the above has led me to believe tha
 
 #### 1-3. The Necessity of Analyzing the Definition of "Gukmin" as National Constituents
 
-Through the observed usage of "gukmin" in the context of political polarization, I recognized the potential risk of this term failing to fully encompass all members of the national community, which is its original meaning. This is not merely a change in language use but, I believe, a significant indicator of fragmentation of society. Therefore, based on this concern, I wanted to examine how core terms referring to national constituents have been understood and defined in each society. Specifically, by comparing the Korean term "gukmin" with the French terms "Peuple," "Nation," and "Citoyen," I aim to analyze the differences in how the two countries perceive their social community. This analysis will not only contribute to understanding how the nation has defined its constituents but also serve as a criterion for detecting signs of exclusion of specific groups or the intensity of social division, thus highlighting its necessity.
+Through the observed usage of "gukmin" in the context of political polarization, I recognized the potential risk of this term failing to fully encompass all members of the national community, which is its original meaning. Therefore, based on this concern, I aim to statistically analyze the usage patterns of this word to determine how differently "gukmin" is used depending on the speaker/source.
 
 ### 2. Research Methodology
 
-This project aims to compare how South Korea and France define their national constituents, focusing on the term "gukmin." To achieve this, the following methods will be employed:
+In this project, the following methods will be used to analyze the word "gukmin":
 
-1. **Analysis of Dictionary Definitions**: Analyze the dictionary definitions of the Korean word "gukmin" and the French words "Peuple," "Nation," and "Citoyen."
+1. **Analysis of Dictionary Definitions**: Analyze the dictionary definitions of the Korean word "gukmin."
 
-2. **Analysis of Historical Context**: Examine how the meanings of each term have evolved within their historical contexts. Particular attention will be paid to the roles these terms played during the French Revolution and the founding of South Korea.
+2. **Statistical Analysis**: The meaning of the target word ("gukmin") as used in news media will be statistically analyzed. Python will be used to crawl news media content and store it in a database. Subsequently, sentences/paragraphs/documents containing the word will be analyzed, and the findings will be visualized using Streamlit.
 
-3. **Reference Materials**: For Korean, the Standard Korean Language Dictionary (표준국어대사전), Korea University Korean Dictionary (고려대한국어사전), and Woori Mal Saem (우리말샘) will be consulted. For French, Larousse and Le Robert dictionaries will be used.
+3. **Reference Materials**: For dictionary definitions, the Standard Korean Language Dictionary (표준국어대사전), Korea University Korean Dictionary (고려대한국어사전), and Woori Mal Saem (우리말샘) will be consulted. For statistical analysis, data will be collected from the conservative news outlet Chosun Ilbo(조선일보) and the progressive news outlet Kyunghyang Shinmun(경향신문), focusing on the period around the presidential impeachment. However, the news outlets may change for ease of data collection.
 
-4. **(+ Statistical Analysis)**: If time permits, a statistical analysis of the meanings of the target words as used in news media will be conducted. This will involve using `Python` to crawl news media content, analyzing sentences/paragraphs containing the target words, and visualizing the findings using `Streamlit`.
-
-Through this process, the analysis will focus not only on the differences in the meanings of the words but also on the differences in how each society views its national community.
+Through this process, the analysis will aim to examine the differences in the word's meaning based on political orientation.
 
 ### 3. Issues and Limitations
 
-This project acknowledges that a deep analysis of the terms' usage in contemporary political discourse could be contentious and lead to an excessively broad scope. Therefore, this research will primarily focus on analyzing the meaning of the words based on historical trends and institutional definitions. This approach aims to provide a more objective and consistent basis for comparing the perceptions of national constituents.
+This project must be conducted while maintaining political neutrality. To achieve this, the amount of data for each political orientation will be kept equal. The methodology for statistical analysis has not yet been finalized. Finalizing this methodology is necessary.
 
 ### 4. Future Plans and Schedule
 
 |Week|Research Plan|Completion Status|Notes|
 |:--:|:--:|:--:|:--:|
-|Week 1|Analysis of Dictionary Definitions| [ ] ||
-|Week 2|Analysis of Historical Context - Korean| [ ] ||
-|Week 3|Analysis of Historical Context - French| [ ] ||
-|Week 4|Other Additional Analyses| [ ] ||
+|Week 1|Analysis of Dictionary Definitions + Data Collection| [ ] ||
+|Week 2|Data Preprocessing + Statistical Analysis| [ ] ||
+|Week 3|Statistical Analysis| [ ] ||
+|Week 4|Visualization of Statistical Analysis Results| [ ] ||
