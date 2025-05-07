@@ -1,7 +1,7 @@
 [[Kor]](#국가의-의미-분석을-통한-한국과-프랑스의-국가-구성원-정의-비교) [[Eng]](#comparative-analysis-of-the-meaning-of-nation-defining-national-constituents-in-south-korea-and-france)
 
 
-# "국민"의 의미 분석을 통한 한국과 프랑스의 국가 구성원 정의 비교
+# 정치성향에 따른 "국민"의 의미 분석
 
 ### 1. 주제 선정 동기
 
@@ -57,7 +57,7 @@
 |3주차|통계적 분석| [ ] ||
 |4주차|통계적 분석 결과 시각화| [ ] ||
 
-# Comparative Analysis of the Meaning of "Nation": Definition of National Constituents in South Korea and France
+# Political polarization and the meaning of "gukmin"
 
 ### 1. Motivation
 
