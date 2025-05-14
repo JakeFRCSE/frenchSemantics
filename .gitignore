@@ -174,3 +174,7 @@ cython_debug/
 .pypirc
 
 .DS_Store
+
+src/data/
+src/data/조선일보.xlsx
+src/data/경향신문.xlsx
