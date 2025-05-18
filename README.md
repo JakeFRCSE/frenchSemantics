@@ -7,7 +7,7 @@
  - [주제 발표 보고서](./report/initial_report/README.md)
 
 ### 2. 프로토타입 사이트
-- [프로토타입 사이트 보러 가기](https://jakefrcse-frenchsemantics-appvisualizationstreamlit-app-yofu3l.streamlit.app
+- [프로토타입 사이트 보러 가기](https://jakefrcse-frenchsemantics-appvisualizationstreamlit-app-yofu3l.streamlit.app)
 
 # French Semantics Project
 This project aims to develop a program that explores the meaning of words along with the project of French and Semantics(FL3300282) course. The objective is to integrate semantics with natural language processing.
