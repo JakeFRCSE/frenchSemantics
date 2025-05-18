@@ -132,3 +132,32 @@ def n_gram_analysis(file_path, save_path, n=2):
     longer_column = 'after_count' if len(after_n_gram) > len(before_n_gram) else 'before_count'
     df_to_save[longer_column] = df_to_save[longer_column].astype(float)
     df_to_save.to_csv(save_path)
+
+def merge_files(file1, file2, save_path, file_type='tfidf'):
+    # CSV 파일 읽기
+    df1 = pd.read_csv(file1)
+    df2 = pd.read_csv(file2)
+
+    # 홀수번째 열만 추출
+    df1 = df1.iloc[:, 1::2]  # 홀수번째 열만 선택
+    df2 = df2.iloc[:, 1::2]  # 홀수번째 열만 선택
+    
+    if file_type == 'tfidf':
+        # 컬럼 이름 변경
+        df1.columns = ['chosun_word_before', 'chosun_word_after']
+        df2.columns = ['kyunghyang_word_before', 'kyunghyang_word_after']
+    else:  # cooc
+        df1.columns = ['chosun_word_before', 'chosun_word_after']
+        df2.columns = ['kyunghyang_word_before', 'kyunghyang_word_after']
+    
+    # 인덱스 기준으로 열방향 합치기
+    merged_df = pd.concat([df1, df2], axis=1)
+    
+    # 저장
+    merged_df.to_csv(save_path, index=True)
+
+if __name__ == "__main__":
+    merge_files('./src/data/cooc_chosun.csv', './src/data/cooc_kyunghyang.csv', 
+                './src/data/cooc_chosun_kyunghyang_merged.csv', 'cooc')
+    merge_files('./src/data/tfidf_chosun.csv', './src/data/tfidf_kyunghyang.csv', 
+                './src/data/tfidf_chosun_kyunghyang_merged.csv', 'tfidf')
