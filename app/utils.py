@@ -5,8 +5,8 @@ def modify_tfidf_columns(df):
     """TF-IDF 데이터프레임의 컬럼을 수정합니다."""
     # 필요한 컬럼만 선택
     df = df[['word', 'tfidf_score', 'word.1', 'tfidf_score.1']]
-    # 컬럼 이름 변경
-    df.columns = ['word', 'tfidf_score', 'word_before', 'tfidf_score_before']
+    # 컬럼 이름 변경 - 첫 번째 쌍을 before로, 두 번째 쌍을 after로 매핑
+    df.columns = ['word_before', 'tfidf_score_before', 'word', 'tfidf_score']
     return df
 
 def get_file_paths(file_option):
