@@ -11,7 +11,7 @@
 - [프로토타입 사이트 보러 가기](https://jakefrcse-frenchsemantics-appvisualizationstreamlit-app-yofu3l.streamlit.app)
 
 ### 3. 데이터
-- [데이터 접근 방법](./src/data_src/README.md)
+- [데이터 접근](./src/data_src)
 
 # French Semantics Project
 This project aims to develop a program that explores the meaning of words along with the project of French and Semantics(FL3300282) course. The objective is to integrate semantics with natural language processing.
@@ -24,4 +24,4 @@ This project aims to develop a program that explores the meaning of words along 
 - [Prototype Site](https://jakefrcse-frenchsemantics-appvisualizationstreamlit-app-yofu3l.streamlit.app)
 
 ### 3. Data
-- [Data Access](./src/data_src/README.md)
+- [Data Access](./src/data_src)
