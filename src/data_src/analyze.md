@@ -25,6 +25,7 @@
 ### 용례 분석
 
 경향신문 2025.5.4
+
 https://www.khan.co.kr/article/202505042109005
 12·3 불법계엄 이후 민주당원이 됐다고 밝힌 황가을씨(34)는 “이재명이 법적으로 문제가 있다면 그에 관한 판단도 **국민**이 투표로 해야 할 시점”이라고 말했다.
 -> 정치적 판단주체
@@ -63,6 +64,7 @@ https://www.khan.co.kr/article/202505042100001
 동반 단어: 뜻
 
 경향신문 2025.3.4
+
 https://www.khan.co.kr/article/202503040600061
 윤 변호사는 “음모론에 빠지고 이념에 치우친 극좌 유튜버와 다름없는 보도를 하며 제도권 기자라고 할 수 있는가”라며 “깨어난  **국민**, 일어선 청년들의 거센 분노가 왜곡 선동 언론으로 향할 것임을 분명히 기억하기 바란다”고 밝혔다.
 -> 정치적 판단 주체
@@ -105,6 +107,7 @@ https://www.khan.co.kr/article/202503041031001
 동반 단어: 심판
 
 조선일보 2025.5.4
+
 https://www.chosun.com/politics/election2025/2025/05/04/E4COEQT7RJACFGJQYUWW24C2VQ/?utm_source=bigkinds&utm_medium=original&utm_campaign=news
 한 전 총리는 이날 오후 채널A와의 인터뷰에서 ‘김 후보 측이 단일화 방식에서 한 전 총리 측에 불리한 조건을 들고 온다 해도 받아들일 의향이 있느냐’는 물음에 “(조건은) 전혀 개의치 않는다”며 “정말로 좋은 사람이 뽑혀서 우리  **국민**이 걱정하지 않고 매일매일의 일상을 행복하게 사는 것이 목표일 뿐”이라고 했다.
 -> 정치 수혜자
@@ -163,6 +166,7 @@ https://www.chosun.com/politics/election2025/2025/05/04/SSWUBYSQSBGS3ACRF6IPXWAY
 -> 정치적 판단 주체동반 단어: 논의
 
 조선일보 2025.3.4
+
 https://www.chosun.com/opinion/editorial/2025/03/04/FDGMAVOH4FCJ7BPR7T6YTB5AYQ/?utm_source=bigkinds&utm_medium=original&utm_campaign=news
 대대적인 선관위 개혁이 필요하고 선관위를  **국민** 감시의 영역에 놓아야 한다는 데 동의하지 않을  **국민**은 없을 것이다.
 -> 정치적 판단 주체동반 단어: 동의
@@ -207,6 +211,7 @@ https://www.chosun.com/politics/politics_general/2025/03/04/7SM5DAGO2RA6HBHIDVT5
 동반 단어: 식견
 
 조선일보 2025.4.5
+
 https://www.chosun.com/opinion/editorial/2025/04/05/QDFKIV2P7BH7ZATPY5XMNBRTXM/?utm_source=bigkinds&utm_medium=original&utm_campaign=news
 우리 **국민**은 비록 분열해 있고 대립도 심하지만 지켜야 할 선은 지키는 지혜로운 **국민**이다. 
 비상계엄 상황은 전 **국민**이 TV로 지켜보았다.
@@ -235,6 +240,7 @@ https://www.chosun.com/national/court_law/2025/04/05/CUMFRYCSNBCOXJOYZ47UWFACFA/
 동반 단어: 충격, 신임
 
 조선일보 2025.4.3
+
 https://www.chosun.com/politics/2025/04/03/FEHY7YQITJBSFOMVVG67P2D6UI/?utm_source=bigkinds&utm_medium=original&utm_campaign=news
 국민의힘 권영세 비상대책위원장은 3일 당 지도부 회의에서 “선거 결과를 무겁게 받아들인다”며 “**국민**의 목소리에 더욱 세심하게 귀를 기울이고, 더욱 가열차게 변화하고 혁신하면서 **국민**의 마음을 얻을 때까지 모든 노력을 멈추지 않겠다”고 했다.
 -> 유권자, 정치적 판단 주체
@@ -266,6 +272,7 @@ https://www.chosun.com/politics/goverment/2025/04/03/ZUXKKRMWJJHPZM6FKEORIP75CI/
 동반 단어: 기대
 
 경향신문 2025.4.5
+
 https://www.khan.co.kr/article/202504050300225
 대통령 취임 1061일째인 이날 “**국민**이 진정한 주인인 나라”(윤 전 대통령 취임사)를 이끌 자격을 상실했다.
 -> 사전적 정의
@@ -320,6 +327,7 @@ https://www.khan.co.kr/article/202504050300075
 동반 단어: 협조
 
 경향신문 2025.4.3
+
 https://www.khan.co.kr/article/202504032129015
 최씨는 윤 대통령 부인 김건희 여사 탓을 하며 “**국민**이 뽑아준 만큼 나라를 위해 열심히 일했어야 함에도 나라보다 배우자를 끔찍이 생각하다보니 이 사태까지 온 것 같다”고 했다.
 -> 유권자, 정치적 판단 주체
