@@ -5,6 +5,7 @@
 
 ### 1. 보고서
  - [주제 발표 보고서](./report/initial_report/README.md)
+ - [최종 보고서](./report/final_report/README.md)
 
 ### 2. 프로토타입 사이트
 - [프로토타입 사이트 보러 가기](https://jakefrcse-frenchsemantics-appvisualizationstreamlit-app-yofu3l.streamlit.app)
